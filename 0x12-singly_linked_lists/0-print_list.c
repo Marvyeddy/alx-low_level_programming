@@ -3,8 +3,7 @@
 
 /**
  * print_list - prints all the elements of a linked list
- * @h: pointer list to print
- *
+ * @h: pointerto list singly linked list
  * Return: the number of nodes printed
  */
 size_t print_list(const list_t *h)
