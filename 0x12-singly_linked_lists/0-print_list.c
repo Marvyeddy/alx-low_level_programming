@@ -3,9 +3,11 @@
 
 /**
  * print_list - prints all the elements of a linked list
- * @h: pointerto list singly linked list
+ * @h: pointer to the list_t list to print
+ * Description: function that prints all the elements of a list_t list.
  * Return: the number of nodes printed
  */
+
 size_t print_list(const list_t *h)
 {
 	size_t s = 0;
